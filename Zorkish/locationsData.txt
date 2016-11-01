@@ -1,0 +1,153 @@
+NEW
+NAME
+Town
+DESC
+A small quiet town
+LINK
+Village
+LINK
+Shops
+ITEM
+NAME
+Pistol
+DESC
+Desert Eagle mofo
+HEALTH
+20
+DAMAGE
+10
+CONTAINER
+NAME
+Dragon
+DESC
+WHOA, thats a big dragon - Attack it!!!
+HEALTH
+20
+DAMAGE
+5
+TAKEABLE
+true
+ITEM
+NAME
+Gold
+DESC
+20 pence
+HEALTH
+0
+DAMAGE
+0
+END
+
+NEW
+NAME
+Village
+DESC
+This is home
+LINK
+Road
+LINK
+Town
+ITEM
+NAME
+Sword
+DESC
+The ultimate sword
+HEALTH
+20
+DAMAGE
+1
+ITEM
+NAME
+Axe
+DESC
+Yes, like the body spray
+HEALTH
+20
+DAMAGE
+1
+CONTAINER
+NAME
+Chest
+DESC
+An old chest. May hold something special
+HEALTH
+20
+DAMAGE
+1
+TAKEABLE
+false
+ITEM
+NAME
+Dagger
+DESC
+It holds the souls of your enemies
+HEALTH
+20
+DAMAGE
+1
+ITEM
+NAME
+Chair
+DESC
+Dont know what you're going to do with this...
+HEALTH
+20
+DAMAGE
+1
+END
+
+NEW
+NAME
+Shops
+DESC
+Time to buy something
+LINK
+Town
+ITEM
+NAME
+Screwdriver
+DESC
+For screwing screws
+HEALTH
+20
+DAMAGE
+1
+END
+
+NEW
+NAME
+Road
+DESC
+Its deserted
+LINK
+Village
+LINK
+House
+ITEM
+NAME
+Mouse
+DESC
+Razer DeathAdder 2016 edition
+HEALTH
+20
+DAMAGE
+1
+END
+
+NEW
+NAME
+House
+DESC
+Mums place
+LINK
+Road
+ITEM
+NAME
+Knife
+DESC
+This is more dangerous than you think
+HEALTH
+20
+DAMAGE
+1
+END
